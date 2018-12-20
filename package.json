@@ -1,15 +1,28 @@
 {
   "name": "a0viedo",
   "version": "1.0.0",
-  "description": "Alejandro Oviedo, the person",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "cat info.json"
+  "bin": {
+    "a0viedo": "card.js"
   },
-  "keywords": [
-    "person",
-    "contact"
-  ],
-  "author": "Alejandro Oviedo",
-  "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a0viedo/a0viedo.git"
+  },
+  "keywords": [],
+  "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a0viedo/a0viedo/issues"
+  },
+  "homepage": "https://github.com/a0viedo/a0viedo#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  }
 }
